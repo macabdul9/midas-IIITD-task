@@ -1,3 +1,7 @@
 papers/
+features/
 dataset/
 *.csv
+*.zip
+*.pkl
+
