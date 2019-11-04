@@ -1,6 +1,9 @@
 papers/
 features/
 dataset/
+speech-features/
+text-features/
+utility-notebooks/
 *.csv
 *.zip
 *.pkl
