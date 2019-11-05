@@ -1,6 +1,11 @@
 papers/
 features/
 dataset/
+SPEECH EMOTION PROBLEM/features
+SPEECH EMOTION PROBLEM/papers
+SPEECH EMOTION PROBLEM/text-features
+SPEECH EMOTION PROBLEM/utility-notebooks
+SPEECH EMOTION PROBLEM/speech-features
 speech-features/
 text-features/
 utility-notebooks/
