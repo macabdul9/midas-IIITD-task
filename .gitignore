@@ -2,10 +2,10 @@ papers/
 features/
 dataset/
 SPEECH EMOTION PROBLEM/features/*
-SPEECH EMOTION PROBLEM/meld_features/*
+meld_features/
 SPEECH EMOTION PROBLEM/papers/*
-SPEECH EMOTION PROBLEM/text-features/*
-SPEECH EMOTION PROBLEM/utility-notebooks/*
+text-features/
+utility-notebooks/
 SPEECH EMOTION PROBLEM/speech-features/*
 speech-features/
 text-features/
