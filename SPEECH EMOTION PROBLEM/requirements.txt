@@ -1,0 +1,17 @@
+pathlib
+seaborn
+matplotlib
+sklearn
+numpy
+pandas
+torch
+fastai
+keras
+tensorflow
+librosa
+tqdm
+SpeechRecognition
+ibm-watson>=4.0.1
+ktrain
+keras_efficientnets
+praat-parselmouth
