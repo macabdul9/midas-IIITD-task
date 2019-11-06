@@ -2,7 +2,7 @@
 
 
 
-#### Each subdirectory contains a requirements.txt file which has all the dependencies required to run the notebook it can be install using the command:
+#### Each subdirectory contains a requirements.txt file which has all the dependencies required to run the notebook it can be installed using the command:
 - pip install -r requirements.txt --user
 
 
@@ -16,12 +16,13 @@
   
     from googel.colab import files <br/>
     uploaded = files.upload()<br/>
+    
 - Mount the coloboratory storage with the google drive using the following scripts:
 
     from google.colab import drive<br/>
     drive.mount('/content/drive')<br/>
     
- you will be redirected to a page asking for a authorization code associated with you google acccount(on which you have uploaded               the dataset)
+ you will get a link to a page asking for a authorization code associated with you google acccount(on which you have uploaded               the dataset)
  - start running the notebook cell sequentially after installing the dependencies using above mentioned command
 
 Note: check the path of the files and folder properly
