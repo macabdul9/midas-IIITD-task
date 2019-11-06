@@ -22,7 +22,7 @@
     drive.mount('/content/drive')<br/>
     
  you will be redirected to a page asking for a authorization code associated with you google acccount(on which you have uploaded               the dataset)
- - start running the notebook cell sequentially after install the dependencies using above mentioned command
+ - start running the notebook cell sequentially after installing the dependencies using above mentioned command
 
 Note: check the path of the files and folder properly
 
