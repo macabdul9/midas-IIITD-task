@@ -1,18 +1,15 @@
 import os
 import pickle
 def accuracy(path='meld/val'):
-  '''
-    we have stored the true labels and predicted labels for test
-    we will read it and calculate the accruacy
-  '''
-  with open('actual.pkl', 'rb') as fp:
-    actual = pickle.load(fp)
-  with open('predicted.pkl', 'rb') as fp:
-    predicted = pickle.load(fp)
+  with open('README.txt', '+r') as f:
   
+    data = f.readlines()
   
-  correct = 0
-  for i in range(len(actual)):
-    if actual[i] == predicted[i]:
-      correct += 1
-  return (correct/len(actual))*100
+  predictions = dict([(each.split(', ')[0],each.split(', ')[1].split('\n')[0]) for each in data ])
+  
+  correct_prediction=0
+  for cls in os.listdir(path):
+    for file in os.listdir(path+'/'+cls):
+      if predictions[file]==cls:
+        correct_prediction += 1
+  return correct_prediction/len(predictions)
